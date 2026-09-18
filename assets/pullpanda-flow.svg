@@ -1,0 +1,42 @@
+<svg width="580" height="70" viewBox="0 0 580 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stage 1: GitHub PR (x 0-100) -->
+  <rect x="0" y="17" width="100" height="36" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="50" y="34" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="8.5" fill="#8b949e" text-anchor="middle">GitHub PR</text>
+  <text x="50" y="46" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="8.5" fill="#6e7681" text-anchor="middle">opened</text>
+
+  <!-- Arrow 1 -->
+  <line x1="100" y1="35" x2="115" y2="35" stroke="#30363d" stroke-width="1"/>
+  <path d="M111 31 L117 35 L111 39" fill="none" stroke="#30363d" stroke-width="1" stroke-linejoin="round"/>
+
+  <!-- Stage 2: Diff (x 120-220) -->
+  <rect x="120" y="17" width="100" height="36" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="170" y="34" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="8.5" fill="#8b949e" text-anchor="middle">diff</text>
+  <text x="170" y="46" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="8.5" fill="#6e7681" text-anchor="middle">extraction</text>
+
+  <!-- Arrow 2 -->
+  <line x1="220" y1="35" x2="235" y2="35" stroke="#30363d" stroke-width="1"/>
+  <path d="M231 31 L237 35 L231 39" fill="none" stroke="#30363d" stroke-width="1" stroke-linejoin="round"/>
+
+  <!-- Stage 3: LLM (x 240-340, accent) -->
+  <rect x="240" y="17" width="100" height="36" rx="3" fill="#0d1117" stroke="#1f6feb" stroke-width="1"/>
+  <text x="290" y="34" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="8.5" fill="#4493f8" text-anchor="middle">LLM</text>
+  <text x="290" y="46" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="8.5" fill="#388bfd" text-anchor="middle">inference</text>
+
+  <!-- Arrow 3 -->
+  <line x1="340" y1="35" x2="355" y2="35" stroke="#30363d" stroke-width="1"/>
+  <path d="M351 31 L357 35 L351 39" fill="none" stroke="#30363d" stroke-width="1" stroke-linejoin="round"/>
+
+  <!-- Stage 4: Review (x 360-460) -->
+  <rect x="360" y="17" width="100" height="36" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="410" y="34" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="8.5" fill="#8b949e" text-anchor="middle">review</text>
+  <text x="410" y="46" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="8.5" fill="#6e7681" text-anchor="middle">generation</text>
+
+  <!-- Arrow 4 -->
+  <line x1="460" y1="35" x2="475" y2="35" stroke="#30363d" stroke-width="1"/>
+  <path d="M471 31 L477 35 L471 39" fill="none" stroke="#30363d" stroke-width="1" stroke-linejoin="round"/>
+
+  <!-- Stage 5: PR Comments (x 480-580) -->
+  <rect x="480" y="17" width="100" height="36" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="530" y="34" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="8.5" fill="#8b949e" text-anchor="middle">inline PR</text>
+  <text x="530" y="46" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="8.5" fill="#6e7681" text-anchor="middle">comments</text>
+</svg>

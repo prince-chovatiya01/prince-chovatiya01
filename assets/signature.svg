@@ -1,0 +1,25 @@
+<svg width="580" height="42" viewBox="0 0 580 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Horizontal rail -->
+  <line x1="20" y1="30" x2="560" y2="30" stroke="#30363d" stroke-width="0.75"/>
+
+  <!-- Node: SYSTEMS @ 90 -->
+  <circle cx="90" cy="30" r="3" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="90" y="20" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="7" fill="#484f58" text-anchor="middle" letter-spacing="0.6">SYSTEMS</text>
+
+  <!-- Node: CODE @ 200 -->
+  <circle cx="200" cy="30" r="3" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="200" y="20" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="7" fill="#484f58" text-anchor="middle" letter-spacing="0.6">CODE</text>
+
+  <!-- Node: RESEARCH @ 290 (accent) -->
+  <circle cx="290" cy="30" r="9" stroke="#1f6feb" stroke-width="0.5" stroke-opacity="0.2" fill="none"/>
+  <circle cx="290" cy="30" r="3.5" fill="#2f81f7"/>
+  <text x="290" y="18" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="7" fill="#4493f8" text-anchor="middle" letter-spacing="0.6">RESEARCH</text>
+
+  <!-- Node: INTELLIGENCE @ 382 -->
+  <circle cx="382" cy="30" r="3" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="382" y="20" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="7" fill="#484f58" text-anchor="middle" letter-spacing="0.6">INTELLIGENCE</text>
+
+  <!-- Node: IMPACT @ 490 -->
+  <circle cx="490" cy="30" r="3" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="490" y="20" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="7" fill="#484f58" text-anchor="middle" letter-spacing="0.6">IMPACT</text>
+</svg>
