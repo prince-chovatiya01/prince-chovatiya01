@@ -65,7 +65,7 @@ Introduces **TubeNet** and a dedicated **Tube Loss** objective calibrated with n
 
 <div align="center">
   <a href="https://github.com/prince-chovatiya01/pull-panda">
-    <img src="assets/pullpanda.svg" alt="Pull Panda Autonomous Code Review Architecture" width="100%"/>
+    <img src="assets/pullpanda-v2.svg" alt="Pull Panda Autonomous Code Review Architecture" width="100%"/>
   </a>
 </div>
 
