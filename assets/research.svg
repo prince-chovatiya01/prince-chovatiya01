@@ -1,9 +1,9 @@
-<svg width="860" height="210" viewBox="0 0 860 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="230" viewBox="0 0 860 230" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="tubeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.35"/>
-      <stop offset="50%" stop-color="#a371f7" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.35"/>
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#a371f7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1f6feb" stop-opacity="0.4"/>
     </linearGradient>
     <linearGradient id="curveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#58a6ff"/>
@@ -12,61 +12,72 @@
     </linearGradient>
   </defs>
 
-  <rect width="860" height="210" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <!-- Background -->
+  <rect width="860" height="230" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
 
-  <!-- Left Header / Publication Metadata -->
-  <text x="35" y="32" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="9" fill="#a371f7" letter-spacing="1.2">IEEE DSAA 2026 // PEER-REVIEWED RESEARCH</text>
-  <text x="35" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif" font-size="16" font-weight="700" fill="#f0f6fc">Quantifying LLM-as-a-Judge Uncertainty via Prediction Intervals</text>
-  <text x="35" y="78" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#79c0ff">TubeNet · Custom Tube Loss · Conformal Prediction (Non-Exchangeable)</text>
+  <!-- Left Header & Title -->
+  <text x="32" y="30" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="9" fill="#a371f7" letter-spacing="1.2">IEEE DSAA 2026 // PEER-REVIEWED RESEARCH</text>
+  
+  <text x="32" y="55" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif" font-size="15.5" font-weight="700" fill="#f0f6fc">Quantifying LLM-as-a-Judge Uncertainty</text>
+  <text x="32" y="75" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',sans-serif" font-size="15.5" font-weight="700" fill="#79c0ff">via Prediction Intervals</text>
 
-  <!-- Key Research Specs on Left -->
-  <g transform="translate(35, 96)">
-    <rect x="0" y="0" width="135" height="42" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="12" y="18" font-family="'SFMono-Regular',Consolas,monospace" font-size="7.5" fill="#8b949e">COVERAGE GUARANTEE</text>
+  <!-- 3 Metric Boxes (Cleanly separated x-coordinates) -->
+  <!-- Box 1 -->
+  <g transform="translate(32, 95)">
+    <rect width="135" height="44" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="12" y="17" font-family="'SFMono-Regular',Consolas,monospace" font-size="7.5" fill="#8b949e">COVERAGE</text>
     <text x="12" y="34" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="700" fill="#58a6ff">1 - α (90%+)</text>
-
-    <rect x="145" y="0" width="135" height="42" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="12" y="18" font-family="'SFMono-Regular',Consolas,monospace" font-size="7.5" fill="#8b949e">INTERVAL EFFICIENCY</text>
-    <text x="12" y="34" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="700" fill="#3fb950">Optimal Width</text>
-
-    <rect x="290" y="0" width="165" height="42" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="12" y="18" font-family="'SFMono-Regular',Consolas,monospace" font-size="7.5" fill="#8b949e">DISTRIBUTION SHIFT</text>
-    <text x="12" y="34" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="700" fill="#f0883e">Non-Exchangeable Calib</text>
   </g>
 
-  <text x="35" y="165" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#8b949e">A novel deep interval architecture calibrated with conformal prediction to output mathematically</text>
-  <text x="35" y="182" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#8b949e">guaranteed confidence bands over LLM evaluative scoring under real-world domain drift.</text>
+  <!-- Box 2 -->
+  <g transform="translate(177, 95)">
+    <rect width="135" height="44" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="12" y="17" font-family="'SFMono-Regular',Consolas,monospace" font-size="7.5" fill="#8b949e">OPTIMALITY</text>
+    <text x="12" y="34" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="700" fill="#3fb950">Tube Loss Min</text>
+  </g>
+
+  <!-- Box 3 -->
+  <g transform="translate(322, 95)">
+    <rect width="145" height="44" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="12" y="17" font-family="'SFMono-Regular',Consolas,monospace" font-size="7.5" fill="#8b949e">DOMAIN DRIFT</text>
+    <text x="12" y="34" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="700" fill="#f0883e">Conformal Calib</text>
+  </g>
+
+  <!-- Abstract text -->
+  <text x="32" y="165" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10.5" fill="#8b949e">TubeNet deep architecture + Tube Loss objective calibrated with non-exchangeable conformal</text>
+  <text x="32" y="182" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10.5" fill="#8b949e">prediction to guarantee statistical confidence bounds for LLM evaluative scoring.</text>
+  <text x="32" y="206" font-family="'SFMono-Regular',Consolas,monospace" font-size="8.5" fill="#79c0ff">AUTHORS: Prince Chovatiya, et al. · ACCEPTED TO IEEE DSAA 2026</text>
 
   <!-- Right Visual: Scientific Interval Diagram -->
-  <g transform="translate(485, 25)">
-    <rect x="0" y="0" width="345" height="160" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <g transform="translate(490, 25)">
+    <rect width="340" height="180" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
     
     <!-- Grid lines -->
-    <line x1="20" y1="20" x2="325" y2="20" stroke="#30363d" stroke-width="0.5" stroke-dasharray="2 2" opacity="0.5"/>
-    <line x1="20" y1="55" x2="325" y2="55" stroke="#30363d" stroke-width="0.5" stroke-dasharray="2 2" opacity="0.5"/>
-    <line x1="20" y1="90" x2="325" y2="90" stroke="#30363d" stroke-width="0.5" stroke-dasharray="2 2" opacity="0.5"/>
-    <line x1="20" y1="125" x2="325" y2="125" stroke="#30363d" stroke-width="0.5" stroke-dasharray="2 2" opacity="0.5"/>
+    <line x1="20" y1="25" x2="320" y2="25" stroke="#30363d" stroke-width="0.5" stroke-dasharray="2 2" opacity="0.5"/>
+    <line x1="20" y1="65" x2="320" y2="65" stroke="#30363d" stroke-width="0.5" stroke-dasharray="2 2" opacity="0.5"/>
+    <line x1="20" y1="105" x2="320" y2="105" stroke="#30363d" stroke-width="0.5" stroke-dasharray="2 2" opacity="0.5"/>
+    <line x1="20" y1="145" x2="320" y2="145" stroke="#30363d" stroke-width="0.5" stroke-dasharray="2 2" opacity="0.5"/>
 
     <!-- Prediction Interval Tube (Polygon) -->
-    <path d="M 20 60 Q 90 30 160 45 T 325 35 L 325 105 Q 240 120 160 100 T 20 115 Z" fill="url(#tubeGrad)"/>
+    <path d="M 20 70 Q 90 40 160 55 T 320 45 L 320 115 Q 240 130 160 110 T 20 125 Z" fill="url(#tubeGrad)"/>
     <!-- Upper bound -->
-    <path d="M 20 60 Q 90 30 160 45 T 325 35" stroke="#bc8cff" stroke-width="1" stroke-dasharray="3 2"/>
+    <path d="M 20 70 Q 90 40 160 55 T 320 45" stroke="#bc8cff" stroke-width="1" stroke-dasharray="3 2"/>
     <!-- Lower bound -->
-    <path d="M 20 115 Q 90 85 160 100 T 325 105" stroke="#bc8cff" stroke-width="1" stroke-dasharray="3 2"/>
+    <path d="M 20 125 Q 90 95 160 110 T 320 115" stroke="#bc8cff" stroke-width="1" stroke-dasharray="3 2"/>
     <!-- Median trajectory (TubeNet Mean) -->
-    <path d="M 20 88 Q 90 58 160 72 T 325 70" stroke="url(#curveGrad)" stroke-width="2"/>
+    <path d="M 20 98 Q 90 68 160 82 T 320 80" stroke="url(#curveGrad)" stroke-width="2"/>
 
     <!-- Empirical Data Points Inside Tube -->
-    <circle cx="50" cy="80" r="2.5" fill="#58a6ff"/>
-    <circle cx="85" cy="62" r="2.5" fill="#3fb950"/>
-    <circle cx="120" cy="55" r="2.5" fill="#58a6ff"/>
-    <circle cx="160" cy="74" r="2.5" fill="#58a6ff"/>
-    <circle cx="205" cy="85" r="2.5" fill="#3fb950"/>
-    <circle cx="250" cy="70" r="2.5" fill="#58a6ff"/>
-    <circle cx="295" cy="65" r="2.5" fill="#3fb950"/>
+    <circle cx="50" cy="90" r="2.5" fill="#58a6ff"/>
+    <circle cx="85" cy="72" r="2.5" fill="#3fb950"/>
+    <circle cx="120" cy="65" r="2.5" fill="#58a6ff"/>
+    <circle cx="160" cy="84" r="2.5" fill="#58a6ff"/>
+    <circle cx="205" cy="95" r="2.5" fill="#3fb950"/>
+    <circle cx="250" cy="80" r="2.5" fill="#58a6ff"/>
+    <circle cx="295" cy="75" r="2.5" fill="#3fb950"/>
 
     <!-- Labels -->
-    <text x="25" y="148" font-family="'SFMono-Regular',Consolas,monospace" font-size="7.5" fill="#a371f7">TUBE LOSS BOUNDS [U, L]</text>
-    <text x="320" y="148" font-family="'SFMono-Regular',Consolas,monospace" font-size="7.5" fill="#3fb950" text-anchor="end">CONFORMAL CALIBRATION</text>
+    <text x="25" y="166" font-family="'SFMono-Regular',Consolas,monospace" font-size="7.5" fill="#bc8cff">TUBE LOSS BOUNDS [U, L]</text>
+    <text x="315" y="166" font-family="'SFMono-Regular',Consolas,monospace" font-size="7.5" fill="#3fb950" text-anchor="end">CONFORMAL CALIBRATION</text>
   </g>
 </svg>
