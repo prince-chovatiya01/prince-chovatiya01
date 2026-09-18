@@ -1,0 +1,30 @@
+<svg width="860" height="170" viewBox="0 0 860 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="170" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Row 1: Languages -->
+  <g transform="translate(30, 24)">
+    <text x="0" y="10" font-family="'SFMono-Regular',Consolas,monospace" font-size="8.5" font-weight="700" fill="#58a6ff" letter-spacing="1">LANGUAGES</text>
+    <text x="140" y="10" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="500" fill="#f0f6fc">C++  ·  Java  ·  Python  ·  TypeScript  ·  JavaScript  ·  SQL</text>
+  </g>
+  <line x1="30" y1="46" x2="830" y2="46" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Row 2: Backend Architecture -->
+  <g transform="translate(30, 62)">
+    <text x="0" y="10" font-family="'SFMono-Regular',Consolas,monospace" font-size="8.5" font-weight="700" fill="#3fb950" letter-spacing="1">BACKEND</text>
+    <text x="140" y="10" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="500" fill="#f0f6fc">Spring Boot  ·  FastAPI  ·  Node.js  ·  Express  ·  Microservices  ·  REST / OpenAPI  ·  OAuth2 / JWT</text>
+  </g>
+  <line x1="30" y1="84" x2="830" y2="84" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Row 3: Data & Storage -->
+  <g transform="translate(30, 100)">
+    <text x="0" y="10" font-family="'SFMono-Regular',Consolas,monospace" font-size="8.5" font-weight="700" fill="#bc8cff" letter-spacing="1">DATA</text>
+    <text x="140" y="10" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="500" fill="#f0f6fc">PostgreSQL  ·  MongoDB  ·  MySQL  ·  Oracle SQL  ·  Vector Stores</text>
+  </g>
+  <line x1="30" y1="122" x2="830" y2="122" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Row 4: Infra & Tooling -->
+  <g transform="translate(30, 138)">
+    <text x="0" y="10" font-family="'SFMono-Regular',Consolas,monospace" font-size="8.5" font-weight="700" fill="#f0883e" letter-spacing="1">INFRA / TOOLS</text>
+    <text x="140" y="10" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="500" fill="#f0f6fc">Git  ·  GitHub  ·  Linux  ·  Docker  ·  Postman  ·  Power BI  ·  LangChain</text>
+  </g>
+</svg>

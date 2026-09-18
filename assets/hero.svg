@@ -1,0 +1,78 @@
+<svg width="860" height="220" viewBox="0 0 860 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.18" />
+      <stop offset="50%" stop-color="#0969da" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30363d" stop-opacity="0.2" />
+      <stop offset="30%" stop-color="#1f6feb" stop-opacity="0.8" />
+      <stop offset="70%" stop-color="#58a6ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#30363d" stop-opacity="0.2" />
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2f81f7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="860" height="220" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect width="860" height="220" rx="10" fill="url(#heroGlow)"/>
+
+  <!-- Precision Technical Grid -->
+  <g stroke="#30363d" stroke-width="0.5" stroke-dasharray="3 3" opacity="0.35">
+    <line x1="40" y1="0" x2="40" y2="220" />
+    <line x1="210" y1="0" x2="210" y2="220" />
+    <line x1="430" y1="0" x2="430" y2="220" />
+    <line x1="650" y1="0" x2="650" y2="220" />
+    <line x1="820" y1="0" x2="820" y2="220" />
+    <line x1="0" y1="40" x2="860" y2="40" />
+    <line x1="0" y1="110" x2="860" y2="110" />
+    <line x1="0" y1="180" x2="860" y2="180" />
+  </g>
+
+  <!-- Top Metadata Header -->
+  <text x="40" y="28" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9" fill="#58a6ff" letter-spacing="1.5">SYS.ID // 0xPRINCE_CHOVATIYA</text>
+  <text x="820" y="28" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9" fill="#8b949e" text-anchor="end" letter-spacing="1.2">LOC : DA-IICT · GS '26</text>
+
+  <!-- Central Identity Box -->
+  <circle cx="430" cy="110" r="70" fill="url(#centerGlow)" />
+  <circle cx="430" cy="110" r="44" fill="#161b22" stroke="#388bfd" stroke-width="1.2"/>
+  <circle cx="430" cy="110" r="40" fill="#0d1117" stroke="#30363d" stroke-width="0.8" stroke-dasharray="2 2"/>
+  <text x="430" y="106" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#f0f6fc" text-anchor="middle" letter-spacing="0.5">PRINCE</text>
+  <text x="430" y="122" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="8.5" font-weight="500" fill="#79c0ff" text-anchor="middle" letter-spacing="1.2">CORE NODE</text>
+
+  <!-- Connecting Backbone Circuit Lines -->
+  <line x1="90" y1="110" x2="386" y2="110" stroke="url(#lineGrad)" stroke-width="1.5"/>
+  <line x1="474" y1="110" x2="770" y2="110" stroke="url(#lineGrad)" stroke-width="1.5"/>
+
+  <!-- Left Node 1: SYSTEMS -->
+  <circle cx="90" cy="110" r="18" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <circle cx="90" cy="110" r="4" fill="#58a6ff"/>
+  <text x="90" y="78" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="8.5" font-weight="600" fill="#8b949e" text-anchor="middle" letter-spacing="1">SYSTEMS</text>
+  <text x="90" y="146" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="7.5" fill="#6e7681" text-anchor="middle">Distributed</text>
+
+  <!-- Left Node 2: CODE -->
+  <circle cx="230" cy="110" r="18" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <circle cx="230" cy="110" r="4" fill="#3fb950"/>
+  <text x="230" y="78" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="8.5" font-weight="600" fill="#8b949e" text-anchor="middle" letter-spacing="1">CODE</text>
+  <text x="230" y="146" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="7.5" fill="#6e7681" text-anchor="middle">Algorithmic</text>
+
+  <!-- Right Node 1: RESEARCH -->
+  <circle cx="630" cy="110" r="18" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <circle cx="630" cy="110" r="4" fill="#a371f7"/>
+  <text x="630" y="78" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="8.5" font-weight="600" fill="#8b949e" text-anchor="middle" letter-spacing="1">RESEARCH</text>
+  <text x="630" y="146" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="7.5" fill="#6e7681" text-anchor="middle">IEEE DSAA '26</text>
+
+  <!-- Right Node 2: INTELLIGENCE -->
+  <circle cx="770" cy="110" r="18" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <circle cx="770" cy="110" r="4" fill="#f0883e"/>
+  <text x="770" y="78" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="8.5" font-weight="600" fill="#8b949e" text-anchor="middle" letter-spacing="1">INTELLIGENCE</text>
+  <text x="770" y="146" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="7.5" fill="#6e7681" text-anchor="middle">LLM &amp; Eval</text>
+
+  <!-- Bottom Coordinates / Status -->
+  <text x="40" y="202" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="8" fill="#6e7681">ARCHITECTURE // PARADIGM : MINIMAL · HIGH PERFORMANCE · MATHEMATICAL</text>
+  <text x="820" y="202" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="8" fill="#3fb950" text-anchor="end">● STATUS : ACTIVE</text>
+</svg>

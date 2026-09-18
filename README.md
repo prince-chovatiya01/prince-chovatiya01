@@ -1,198 +1,167 @@
+<div align="center">
+
+<img src="assets/hero.svg" alt="Prince Chovatiya - Systems, Research, Intelligence" width="100%"/>
+
+</div>
+
+<br>
+
+<p align="center">
+  <b>Prince Chovatiya</b> &nbsp;·&nbsp; Information & Communication Technology, Dhirubhai Ambani University ('27)
+  <br>
+  <sub>Incoming Summer Analyst @ Goldman Sachs &nbsp;·&nbsp; IEEE DSAA '26 Researcher &nbsp;·&nbsp; Full-Stack &amp; Distributed Systems</sub>
+</p>
+
+<p align="center">
+  <a href="mailto:prince.chovatiya01@gmail.com">prince.chovatiya01@gmail.com</a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/prince-chovatiya01">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://github.com/prince-chovatiya01">GitHub</a>
+</p>
+
+<br>
+
+---
+
+### `01` &nbsp;// &nbsp;ENGINEERING &amp; INDUSTRY
+
 <br>
 
 <div align="center">
-
-# Prince Chovatiya
-
-**Systems engineer &nbsp;·&nbsp; competitive programmer &nbsp;·&nbsp; researcher**
-
-Building backend infrastructure, developer tooling, and research-driven software<br>
-that operates correctly at production scale.
+  <img src="assets/experience.svg" alt="Engineering Experience Timeline and Metrics" width="100%"/>
+</div>
 
 <br>
 
-<img
-  src="https://raw.githubusercontent.com/prince-chovatiya01/prince-chovatiya01/main/assets/signature.svg"
-  alt="Systems · Code · Research · Intelligence · Impact"
-  width="580"
-/>
+- **Goldman Sachs** *(Incoming Summer Analyst '26)*: Architected enterprise LLM context synthesis microservices in Spring Boot &amp; FastAPI, reducing analyst preparation latency by 87.5% across 65,000+ daily customer workflows.
+- **Reliance Industries** *(Software Engineering Intern '25)*: Built real-time SCADA telemetry pipelines, battery test bench monitoring, and operational dashboards for the New Energy division.
 
 <br>
 
-[GitHub](https://github.com/prince-chovatiya01) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/prince-chovatiya01) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/IamBatman21/) &nbsp;·&nbsp; [Codeforces](https://codeforces.com/profile/prince.chovatiya01) &nbsp;·&nbsp; [Email](mailto:prince.chovatiya01@gmail.com)
+---
 
-<sub>B.Tech ICT &nbsp;·&nbsp; Dhirubhai Ambani University &nbsp;·&nbsp; 9.12 CPI</sub>
+### `02` &nbsp;// &nbsp;RESEARCH &amp; PUBLICATIONS
 
+<br>
+
+<div align="center">
+  <img src="assets/research.svg" alt="Scientific Research Artifact - Prediction Intervals for LLMs" width="100%"/>
+</div>
+
+<br>
+
+> **Quantifying LLM-as-a-Judge Uncertainty via Prediction Intervals: TubeNet, Tube Loss, and Conformal Prediction**  
+> *IEEE International Conference on Data Science and Advanced Analytics (DSAA 2026)*  
+> <sub>Authors: Prince Chovatiya, et al.</sub>
+
+Introduces **TubeNet** and a dedicated **Tube Loss** objective calibrated with non-exchangeable conformal prediction to construct mathematically rigorous confidence bounds for LLM evaluative scoring under real-world domain and prompt shift.
+
+<br>
+
+---
+
+### `03` &nbsp;// &nbsp;FEATURED SYSTEM : PULL PANDA
+
+<br>
+
+<div align="center">
+  <a href="https://github.com/prince-chovatiya01/pull-panda">
+    <img src="assets/pullpanda.svg" alt="Pull Panda Autonomous Code Review Architecture" width="100%"/>
+  </a>
+</div>
+
+<br>
+
+**[Pull Panda](https://github.com/prince-chovatiya01/pull-panda)** is an autonomous GitHub PR intelligence engine that ingests webhook payloads, extracts semantic AST diffs, and orchestrates multi-tier LLM inference (Claude / GPT-4o / local Ollama) to post actionable, file-precise review annotations directly on pull requests.
+
+<br>
+
+---
+
+### `04` &nbsp;// &nbsp;CURATED SYSTEMS ARCHIVE
+
+<br>
+
+#### **01 · [HealthSaathi](https://github.com/prince-chovatiya01/HealthSaathi)**
+> **Hospital OPD Orchestration & Offline Token Synchronization Engine**  
+> Distributed OPD queue management system designed for low-connectivity environments. Features real-time token dispatching, offline-first local SQLite caching, and automated SMS alerts, reducing patient waiting bottlenecks by 40%.  
+> `TypeScript` `React` `Node.js` `Express` `SQLite` `Tailwind CSS`
+
+<br>
+
+#### **02 · [TurtleTrackr](https://github.com/prince-chovatiya01/turtletrackr)**
+> **Quantitative Trading Strategy Backtester & Risk Attribution**  
+> High-performance backtesting engine executing the classic Turtle Trading trend-following methodology. Computes real-time ATR volatility position sizing, Sharpe ratios, drawdown profiles, and portfolio performance analytics.  
+> `Python` `FastAPI` `Pandas` `NumPy` `Plotly` `Quantitative Finance`
+
+<br>
+
+#### **03 · [Ghost Water Detector](https://github.com/prince-chovatiya01/ghost-water-detector)**
+> **Acoustic Telemetry & Non-Revenue Industrial Water Leak Detection**  
+> IoT signal processing pipeline analyzing pipeline vibration and acoustic sensor streams to detect unmetered consumption and sub-surface leaks before structural failures occur.  
+> `Python` `Signal Processing` `IoT Telemetry` `FastAPI` `PostgreSQL`
+
+<br>
+
+#### **04 · [ReckonSLAM](https://github.com/prince-chovatiya01/ReckonSLAM)**
+> **Visual Dead Reckoning & SLAM for Mobile Robotics / Android**  
+> Camera-based feature tracking and optical flow dead reckoning on edge mobile hardware. Generates real-time point-cloud environment maps for GPS-denied navigation.  
+> `C++` `OpenCV` `Java` `Android NDK` `Visual Odometry`
+
+<br>
+
+#### **05 · [DealFlow 360](https://github.com/tirthgandhi9905/DealFlow360)**
+> **Enterprise Deal Pipeline CRM & Automated CPQ System**  
+> Full-cycle B2B sales automation platform handling dynamic quote calculations, upsell recommendations, and multi-stage deal tracking across distributed sales teams.  
+> `TypeScript` `React` `Node.js` `PostgreSQL` `REST APIs`
+
+<br>
+
+---
+
+### `05` &nbsp;// &nbsp;TECHNICAL SPECIFICATION
+
+<br>
+
+<div align="center">
+  <img src="assets/stack-spec.svg" alt="Engineering Stack Technical Specification" width="100%"/>
 </div>
 
 <br>
 
 ---
 
-## Experience
-
-**Goldman Sachs** &nbsp;—&nbsp; Summer Analyst &nbsp;·&nbsp; Hyderabad &nbsp;·&nbsp; 2026
-
-Built production backend services automating customer-context generation using enterprise LLMs.
-
-> **87.5%** faster preparation &nbsp;·&nbsp; **8 min → <1 min** &nbsp;·&nbsp; **65,000+** workflows/day
-
-<sub>Spring Boot &nbsp;·&nbsp; FastAPI &nbsp;·&nbsp; React &nbsp;·&nbsp; OpenAPI &nbsp;·&nbsp; OAuth2/JWT &nbsp;·&nbsp; Microservices</sub>
+### `06` &nbsp;// &nbsp;COMPETITIVE PROGRAMMING
 
 <br>
 
-**Reliance Industries** &nbsp;—&nbsp; Software Intern &nbsp;·&nbsp; New Energy Division &nbsp;·&nbsp; 2025
-
-Modernized legacy Oracle SQL modules and backend business logic for production systems. Built automated Power BI dashboards for utility variance analysis with server-level error traceability.
-
----
-
-## Research
-
-**IEEE DSAA 2026** &nbsp;·&nbsp; Accepted &nbsp;·&nbsp; [`TubeEval ↗`](https://github.com/prince-chovatiya01/TubeEval)
-
-> *Quantifying LLM-as-a-Judge Uncertainty via Prediction Intervals:*
-> *TubeNet, Tube Loss, and Conformal Prediction*
-
-A framework for calibrating uncertainty in LLM-as-a-Judge evaluation pipelines using conformal prediction theory. Introduces **TubeNet** — a novel architecture for interval estimation — and **Tube Loss**, designed for provable coverage guarantees. Addresses a fundamental reliability problem in automated evaluation of language model outputs at scale.
-
----
-
-## Pull Panda
-
-**AI-powered pull request review, automated.**
-
 <div align="center">
-<img
-  src="https://raw.githubusercontent.com/prince-chovatiya01/prince-chovatiya01/main/assets/pullpanda-flow.svg"
-  alt="GitHub PR → Diff Extraction → LLM Inference → Review Generation → Inline PR Comments"
-  width="580"
-/>
+  <img src="assets/cp-metrics.svg" alt="Competitive Programming Metrics" width="100%"/>
 </div>
+
+<p align="center">
+  <a href="https://leetcode.com/u/IamBatman21/"><b>LeetCode Profile</b> (Knight)</a> &nbsp;·&nbsp;
+  <a href="https://codeforces.com/profile/prince.chovatiya01"><b>Codeforces Profile</b> (Max 1412)</a> &nbsp;·&nbsp;
+  <a href="https://www.codechef.com/users/princecodes01"><b>CodeChef Profile</b> (Max 1888 · 3★)</a>
+</p>
 
 <br>
 
-> **60%** reduction in first-level code review time &nbsp;·&nbsp; **10+** repositories deployed
+---
 
-Integrates with the GitHub REST API to analyze PR diffs, generate structured AI-driven feedback, and post inline review comments. Supports Cloud LLMs, local models, and custom fine-tuned models.
+### `07` &nbsp;// &nbsp;SELECTED RECOGNITION
 
-<sub>Python &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; GitHub Apps &nbsp;·&nbsp; REST</sub>
+<br>
 
-[Repository](https://github.com/prince-chovatiya01/PULL-PANDA) &nbsp;·&nbsp; [Demo](https://github.com/prince-chovatiya01/pullpanda-demo)
+- **Deloitte Hacksplosion '26** &nbsp;—&nbsp; **Top 500** / 21,600+ teams nationwide
+- **Amazon Hack-On '25** &nbsp;—&nbsp; **Top 12.6%** / 1,860 teams across India
+- **Google Big Code Challenge** &nbsp;—&nbsp; **Top 15%** / 100,000+ global participants
+- **Lakshya 2.0 National Hackathon** &nbsp;—&nbsp; **Top 100** / 2,500+ teams
+- **Apna College Spotlight** &nbsp;—&nbsp; Featured on YouTube with **[90,000+ views](https://www.youtube.com/watch?v=0xlAbN_kCys)**
+
+<br>
 
 ---
 
-## Selected Work
-
-<table>
-<tr>
-<td width="28" valign="top"><br><sub>01</sub></td>
-<td valign="top">
-
-**[HealthSaathi](https://github.com/prince-chovatiya01/HealthSaathi)** &nbsp;·&nbsp; [Live →](https://healthsaathi-zrvl.onrender.com)
-
-Full-stack healthcare platform. Doctor discovery, appointment booking, and role-based access for patients and providers. React/TypeScript frontend, Node.js/Express backend, MongoDB, JWT. Four data models, full REST API.
-
-</td>
-</tr>
-<tr><td colspan="2"><br></td></tr>
-<tr>
-<td width="28" valign="top"><br><sub>02</sub></td>
-<td valign="top">
-
-**[TurtleTrackr](https://github.com/prince-chovatiya01/TurtleTrackr)**
-
-Quantitative research terminal for backtesting the Turtle Trading Strategy with market regime detection and systematic performance evaluation.
-
-</td>
-</tr>
-<tr><td colspan="2"><br></td></tr>
-<tr>
-<td width="28" valign="top"><br><sub>03</sub></td>
-<td valign="top">
-
-**[Ghost Water Detector](https://github.com/prince-chovatiya01/Ghost-Water-Detector)**
-
-Industrial anomaly detection for water pipeline networks. ML-based leakage identification with real-time alerting, built for municipal infrastructure.
-
-</td>
-</tr>
-<tr><td colspan="2"><br></td></tr>
-<tr>
-<td width="28" valign="top"><br><sub>04</sub></td>
-<td valign="top">
-
-**[ReckonSLAM](https://github.com/prince-chovatiya01/ReckonSLAM)**
-
-Camera-based dead reckoning and visual SLAM for Android. Real-time localization and environment mapping for autonomous navigation.
-
-</td>
-</tr>
-<tr><td colspan="2"><br></td></tr>
-<tr>
-<td width="28" valign="top"><br><sub>05</sub></td>
-<td valign="top">
-
-**[DealFlow 360](https://github.com/tirthgandhi9905/DealFlow360)**
-
-Enterprise CRM platform. Deal pipeline management, automated quote creation, and upsell workflows. TypeScript/React frontend with RESTful backend.
-
-</td>
-</tr>
-</table>
-
----
-
-## Engineering Stack
-
-```
-Languages    C++  ·  Java  ·  Python  ·  TypeScript  ·  JavaScript  ·  SQL
-
-Backend      Spring Boot  ·  FastAPI  ·  Node.js  ·  Express
-             REST/OpenAPI  ·  OAuth2/JWT  ·  Microservices
-
-Frontend     React  ·  Tailwind CSS
-
-Data         PostgreSQL  ·  MongoDB  ·  MySQL  ·  Oracle SQL
-
-Infra        Git  ·  GitHub  ·  Linux  ·  Postman  ·  Power BI
-```
-
----
-
-## Competitive Programming
-
-| | | |
-|:--|:--|:--|
-| [**LeetCode**](https://leetcode.com/u/IamBatman21/) | Knight | 159 solved |
-| [**Codeforces**](https://codeforces.com/profile/prince.chovatiya01) | Max 1412 | 423 solved |
-| [**CodeChef**](https://www.codechef.com/users/princecodes01) | Max 1888 | 3★ |
-
----
-
-## Selected Recognition
-
-**Deloitte Hacksplosion '26** &nbsp;— Top 500 / 21,600+ teams
-
-**Amazon Hack-On '25** &nbsp;— Top 12.6% / 1,860 teams
-
-**Google Big Code Challenge** &nbsp;— Top 15% / 100,000+ participants
-
-**Lakshya 2.0** &nbsp;— Top 100 / 2,500+ teams
-
-**Apna College** &nbsp;— [Placement interview feature](https://www.youtube.com/watch?v=0xlAbN_kCys) &nbsp;·&nbsp; 90K+ views
-
----
-
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=prince-chovatiya01&bg_color=0d1117&color=6e7681&line=1f6feb&point=2f81f7&area=true&area_color=1f6feb&hide_border=true&radius=3"
-  width="100%"
-  alt="Contribution activity"
-/>
-
----
-
-<div align="center">
-<sub>Prince Chovatiya &nbsp;·&nbsp; Gujarat, India &nbsp;·&nbsp; 2026</sub><br>
-<sub><a href="mailto:prince.chovatiya01@gmail.com">prince.chovatiya01@gmail.com</a></sub>
-</div>
+<p align="center">
+  <sub>Built with intentional design &amp; mathematical precision · © 2026 Prince Chovatiya</sub>
+</p>

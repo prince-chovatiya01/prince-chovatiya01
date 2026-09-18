@@ -1,0 +1,45 @@
+<svg width="860" height="130" viewBox="0 0 860 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lcGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffa116"/>
+      <stop offset="100%" stop-color="#f0883e"/>
+    </linearGradient>
+    <linearGradient id="cfGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#1f6feb"/>
+    </linearGradient>
+    <linearGradient id="ccGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d29922"/>
+      <stop offset="100%" stop-color="#9e6a03"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="130" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Metric 1: LeetCode -->
+  <g transform="translate(30, 20)">
+    <rect width="250" height="90" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="20" y="24" font-family="'SFMono-Regular',Consolas,monospace" font-size="8.5" fill="#ffa116" font-weight="600" letter-spacing="1">LEETCODE // KNIGHT</text>
+    <text x="20" y="65" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="34" font-weight="800" fill="#f0f6fc">159</text>
+    <text x="95" y="64" font-family="'SFMono-Regular',Consolas,monospace" font-size="11" fill="#8b949e">SOLVED</text>
+    <text x="20" y="80" font-family="'SFMono-Regular',Consolas,monospace" font-size="7.5" fill="#6e7681">iamBatman21 · Top Percentile</text>
+  </g>
+
+  <!-- Metric 2: Codeforces -->
+  <g transform="translate(305, 20)">
+    <rect width="250" height="90" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="20" y="24" font-family="'SFMono-Regular',Consolas,monospace" font-size="8.5" fill="#58a6ff" font-weight="600" letter-spacing="1">CODEFORCES // RATING</text>
+    <text x="20" y="65" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="34" font-weight="800" fill="#f0f6fc">1412</text>
+    <text x="110" y="64" font-family="'SFMono-Regular',Consolas,monospace" font-size="11" fill="#8b949e">MAX</text>
+    <text x="20" y="80" font-family="'SFMono-Regular',Consolas,monospace" font-size="7.5" fill="#6e7681">423 Problems Solved</text>
+  </g>
+
+  <!-- Metric 3: CodeChef -->
+  <g transform="translate(580, 20)">
+    <rect width="250" height="90" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="20" y="24" font-family="'SFMono-Regular',Consolas,monospace" font-size="8.5" fill="#d29922" font-weight="600" letter-spacing="1">CODECHEF // 3★</text>
+    <text x="20" y="65" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="34" font-weight="800" fill="#f0f6fc">1888</text>
+    <text x="110" y="64" font-family="'SFMono-Regular',Consolas,monospace" font-size="11" fill="#8b949e">MAX</text>
+    <text x="20" y="80" font-family="'SFMono-Regular',Consolas,monospace" font-size="7.5" fill="#6e7681">princecodes01 · Division 2</text>
+  </g>
+</svg>
