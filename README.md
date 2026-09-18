@@ -44,7 +44,7 @@
 <br>
 
 <div align="center">
-  <img src="assets/research.svg" alt="Scientific Research Artifact - Prediction Intervals for LLMs" width="100%"/>
+  <img src="assets/research-v2.svg" alt="Scientific Research Artifact - Prediction Intervals for LLMs" width="100%"/>
 </div>
 
 <br>
